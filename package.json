@@ -1,0 +1,60 @@
+{
+  "name": "@nestjs/fastify-oauth2",
+  "version": "1.0.0",
+  "description": "\"It's a library, from adapter fastify-oauth2 to nestjs\"",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "test": "lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Wcamaly/nestjs-fastify-oauth2.git"
+  },
+  "author": "Walter Camaly <waltercamaly@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@nestjs/common": "^8.1.2",
+    "@nestjs/config": "^1.0.3",
+    "@nestjs/core": "^8.1.2"
+  },
+  "lint-staged": {
+    "*.{js,ts,jsx,tsx}": [
+      "npm run lint",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^8.1.4",
+    "@nestjs/schematics": "^8.0.4",
+    "@nestjs/testing": "^8.1.2",
+    "@types/jest": "^27.0.2",
+    "@types/node": "^16.11.6",
+    "@types/supertest": "^2.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.2.0",
+    "@typescript-eslint/parser": "^5.2.0",
+    "eslint": "^8.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-jest": "^25.2.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^7.0.4",
+    "jest": "^27.3.1",
+    "lint-staged": "^11.2.6",
+    "prettier": "^2.4.1",
+    "rimraf": "^3.0.2",
+    "supertest": "^6.1.6",
+    "ts-jest": "^27.0.7",
+    "ts-loader": "^9.2.6",
+    "ts-node": "^10.4.0",
+    "tsconfig-paths": "^3.11.0",
+    "typescript": "^4.4.4"
+  }
+}
