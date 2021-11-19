@@ -1,0 +1,3 @@
+export const GOOGLE_OPTIONS = Symbol('GOOGLE_OPTIONS')
+
+export const GOOGLE_REPOSITORY = Symbol('GOOGLE_REPOSITORY')
