@@ -1,6 +1,6 @@
 {
-  "name": "@nestjs/fastify-google-oauth2",
-  "version": "1.0.0",
+  "name": "@wcamaly/fastify-google-oauth2",
+  "version": "1.0.1",
   "description": "\"It's a library, from adapter fastify-oauth2 to nestjs\"",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -13,7 +13,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Wcamaly/nestjs-fastify-oauth2.git"
+    "url": "https://github.com/Wcamaly/nestjs-fastify-google-oauth2.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "author": "Walter Camaly <waltercamaly@gmail.com>",
   "license": "MIT",
